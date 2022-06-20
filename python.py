@@ -33,7 +33,7 @@ import pydotplus
 from sklearn.ensemble import RandomForestRegressor
 
 
-os.chdir("/Users/samboamaza/OneDrive - UWM/Courses/ECON 790 - Research Seminar for M.A. Students/Data/Realtor.com")
+os.chdir("") #set to file path where data is located
 
 #impoer and clean data
 df_realtor = pd.read_csv("RDC_Inventory_Core_Metrics_Metro_History.csv")
