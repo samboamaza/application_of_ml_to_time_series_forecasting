@@ -34,7 +34,7 @@ library(rpart.plot)
 
 
 #set working directory
-setwd("/Users/samboamaza/OneDrive - UWM/Courses/ECON 790 - Research Seminar for M.A. Students/Data/Realtor.com")
+setwd("") #set to file path where data is saved
 
 #import and clean data
 df_realtor = read.csv("RDC_Inventory_Core_Metrics_Metro_History.csv")
